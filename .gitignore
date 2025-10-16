@@ -1,0 +1,8 @@
+# Project-specific
+.flatpak-builder/
+build/
+
+# Editor Exclusions
+*~
+
+
