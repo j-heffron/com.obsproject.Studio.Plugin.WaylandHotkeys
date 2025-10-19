@@ -4,6 +4,7 @@
 set -e
 cd $(dirname "$0")
 
+flatpak run --command=flatpak-builder-lint org.flatpak.Builder appstream com.obsproject.Studio.Plugin.WaylandHotkeys.metainfo.xml
 flatpak-builder $BUILD_USERMODE \
         --force-clean \
         --install-deps-from=flathub \
