@@ -18,7 +18,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/leia-uwu/obs-wayland-hotkeys.git
-        commit: f8977053c2406b99bf12b97dd72eab57bb9f95f1
+        commit: 6904c2fa13bedc8e4f2aca51ebd98709036f55de
+        tag: v1.0.0
         x-checker-data:
           type: git
           is-main-source: true
